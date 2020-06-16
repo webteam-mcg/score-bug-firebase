@@ -1,0 +1,152 @@
+#main{
+    width: 1920px;
+    height: 105px;
+    background-image: url('../img/img.png');
+}
+
+#team{
+    position: absolute;
+    left: 400px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#score{
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+}
+
+#score_{
+    position: absolute;
+    left: 560px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+}
+
+#wckt{
+    position: absolute;
+    left: 580px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+}
+
+#player1{
+    position: absolute;
+    left: 670px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#player1_score{
+    position: absolute;
+    left: 970px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#player1_balls{
+    position: absolute;
+    left: 1035px;
+    top: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#player2{
+    position: absolute;
+    left: 1120px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#player2_score{
+    position: absolute;
+    left: 1420px;
+    top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#player2_balls{
+    position: absolute;
+    left: 1485px;
+    top: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#over_label{
+    position: absolute;
+    left: 420px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#overs{
+    position: absolute;
+    left: 560px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#bowler{
+    position: absolute;
+    left: 1120px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#bowler_wckt{
+    position: absolute;
+    left: 1460px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#bowler_{
+    position: absolute;
+    left: 1490px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#bowler_score{
+    position: absolute;
+    left: 1510px;
+    top: 65px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
