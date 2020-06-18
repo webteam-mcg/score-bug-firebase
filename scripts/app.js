@@ -47,4 +47,10 @@
           }
         }
         document.getElementById("this_over").textContent = this_over;
+
+        if(doc.data().currentPlayer === "player1"){
+          document.getElementById("player1_active").textContent = "■";
+        }else{
+          document.getElementById("player2_active").textContent = "■";
+        }
     });

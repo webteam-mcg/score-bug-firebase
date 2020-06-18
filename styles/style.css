@@ -43,9 +43,18 @@
     color: white;
 }
 
+#player1_active{
+    position: absolute;
+    left: 650px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 35px;
+    color: red;
+}
+
 #player1{
     position: absolute;
-    left: 670px;
+    left: 680px;
     top: 15px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
@@ -70,9 +79,18 @@
     font-size: 25px;
 }
 
+#player2_active{
+    position: absolute;
+    left: 1100px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 35px;
+    color: red;
+}
+
 #player2{
     position: absolute;
-    left: 1120px;
+    left: 1130px;
     top: 15px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
@@ -129,7 +147,7 @@
 
 #bowler{
     position: absolute;
-    left: 1120px;
+    left: 1130px;
     top: 65px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
