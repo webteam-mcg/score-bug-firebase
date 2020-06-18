@@ -29,4 +29,22 @@
 
         const balls = doc.data().balls;
         document.getElementById("overs").textContent = Math.floor(balls/6)+(balls%6)/10;
+
+        const thisOver = doc.data().thisOver.trim().split(" ");
+        console.log(thisOver);
+        const thisOverLen = thisOver.length;
+        var this_over = "";
+        for (let i = 0; i < thisOverLen; i++) {
+          
+          if (thisOver[i] === "0") {
+            this_over = this_over+'•'
+          }else{
+            this_over = this_over+thisOver[i];
+          }
+          if(i+1<thisOverLen){
+            this_over = this_over+" | ";
+            console.log(i, thisOverLen);
+          }
+        }
+        document.getElementById("this_over").textContent = this_over;
     });
