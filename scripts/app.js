@@ -22,9 +22,12 @@
         document.getElementById("player1").textContent = doc.data().player1.name.split(" ")[0].toUpperCase();
         document.getElementById("player2").textContent = doc.data().player2.name.split(" ")[0].toUpperCase();
         document.getElementById("bowler").textContent = doc.data().bowler.name.split(" ")[0].toUpperCase();
+        document.getElementById("score").textContent = doc.data().score;
         document.getElementById("wckt").textContent = doc.data().wickets;
-        document.getElementById("player1_balls").textContent = doc.data().player1.balls;
-        document.getElementById("player2_balls").textContent = doc.data().player2.balls;
+        document.getElementById("player1_score").textContent = doc.data().player1.score;
+        document.getElementById("player1_balls_count").textContent = doc.data().player1.balls;
+        document.getElementById("player2_score").textContent = doc.data().player2.score;
+        document.getElementById("player2_balls_count").textContent = doc.data().player2.balls;
         document.getElementById("bowler_score").textContent = doc.data().bowler.score;
 
         const balls = doc.data().balls;

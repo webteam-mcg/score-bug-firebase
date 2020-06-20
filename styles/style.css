@@ -13,30 +13,13 @@
     font-size: 35px;
 }
 
-#score{
+#score_wckt{
     position: absolute;
     left: 500px;
     top: 15px;
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: 500;
-    font-size: 35px;
-    color: white;
-}
-
-#score_{
-    position: absolute;
-    left: 560px;
-    top: 15px;
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: 500;
-    font-size: 35px;
-    color: white;
-}
-
-#wckt{
-    position: absolute;
-    left: 580px;
-    top: 15px;
+    text-align: center;
+    width: 120px;
+    height: 35px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
     font-size: 35px;
@@ -68,6 +51,8 @@
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
     font-size: 35px;
+    width: 65px;
+    text-align: right;
 }
 
 #player1_balls{
@@ -104,6 +89,8 @@
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
     font-size: 35px;
+    width: 65px;
+    text-align: right;
 }
 
 #player2_balls{
