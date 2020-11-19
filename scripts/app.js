@@ -29,31 +29,29 @@
         document.getElementById("player2_score").textContent = doc.data().player2.score;
         document.getElementById("player2_balls_count").textContent = doc.data().player2.balls;
         document.getElementById("bowler_score").textContent = doc.data().bowler.score;
+        document.getElementById("bowler_wckt").textContent = doc.data().bowler.wickets;
 
         const balls = doc.data().balls;
         document.getElementById("overs").textContent = Math.floor(balls/6)+(balls%6)/10;
 
-        const thisOver = doc.data().thisOver.trim().split(" ");
-        console.log(thisOver);
-        const thisOverLen = thisOver.length;
-        var this_over = "";
-        for (let i = 0; i < thisOverLen; i++) {
-          
-          if (thisOver[i] === "0") {
-            this_over = this_over+'•'
-          }else{
-            this_over = this_over+thisOver[i];
-          }
-          if(i+1<thisOverLen){
+        const thisOver = doc.data().thisOver;
+        let this_over = "";
+        const thisOverLength = Object.keys(thisOver).length;
+
+        for ( let [key, value] of Object.entries(thisOver)){
+          this_over = this_over+value;
+          if (thisOverLength > 1 && key != thisOverLength){
             this_over = this_over+" | ";
-            console.log(i, thisOverLen);
           }
         }
+
         document.getElementById("this_over").textContent = this_over;
 
         if(doc.data().currentPlayer === "player1"){
           document.getElementById("player1_active").textContent = "■";
-        }else{
+          document.getElementById("player2_active").textContent = "";
+        }else if(doc.data().currentPlayer === "player2"){
           document.getElementById("player2_active").textContent = "■";
+          document.getElementById("player1_active").textContent = "";
         }
     });
