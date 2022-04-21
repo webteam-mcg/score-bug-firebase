@@ -1,4 +1,4 @@
-# Score Bug firebase
+# Score Bug Firebase
 
 Browser-based lower third to use in cricket 🏏 live streaming.
 
