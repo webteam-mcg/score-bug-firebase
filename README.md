@@ -1,7 +1,5 @@
 # Score Bug Firebase
 
-test
-
 Browser-based lower third to use in cricket 🏏 live streaming.
 
 ![Score Bug preview](https://i.ibb.co/7JjVNJb/Score-Bar-crop.png)
